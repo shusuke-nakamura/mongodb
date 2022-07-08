@@ -24,3 +24,10 @@ db.dropDatabase()
 
 # コレクションの作成
 db.createCollection("コレクション名)
+
+# コレクションの一覧
+show collections
+
+# コレクションの削除
+db.コレクション名.drop()
+
