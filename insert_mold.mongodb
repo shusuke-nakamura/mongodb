@@ -1,0 +1,19 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('test');
+
+db.employee.insertOne({
+    _id: 1,
+    stringData: "stringData",
+    doubleData: 1,
+    intData: NumberInt(1),
+    longData: NumberLong(1),
+    decimalData: NumberDecimal(1,0),
+    dateData: ISODate("2017-10-01T12:00:00Z"),
+    booleanData: true,
+    nullData: null
+})
